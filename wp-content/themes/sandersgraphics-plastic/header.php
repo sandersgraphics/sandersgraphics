@@ -21,7 +21,8 @@
 		
 		<?php tha_head_bottom(); ?>
 		<?php wp_head(); ?>
-	</head>
+        <link rel="stylesheet" href="css/sg-plastic.css">
+    </head>
 	
 	<body <?php body_class(); ?>>
 		<div class="container">
@@ -96,4 +97,4 @@
 				
 
 /* End of file header.php */
-/* Location: ./wp-content/themes/the-bootstrap/header.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/header.php */
