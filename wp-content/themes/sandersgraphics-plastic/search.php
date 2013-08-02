@@ -42,4 +42,4 @@ get_footer();
 
 
 /* End of file search.php */
-/* Location: ./wp-content/themes/the-bootstrap/search.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/search.php */

@@ -86,4 +86,4 @@ tha_entry_before(); ?>
 
 
 /* End of file content-gallery.php */
-/* Location: ./wp-content/themes/the-bootstrap/partials/content-gallery.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/partials/content-gallery.php */

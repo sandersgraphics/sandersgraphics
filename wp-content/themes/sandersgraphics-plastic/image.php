@@ -111,4 +111,4 @@ get_footer();
 
 
 /* End of file image.php */
-/* Location: ./wp-content/themes/the-bootstrap/image.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/image.php */

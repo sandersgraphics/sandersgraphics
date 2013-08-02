@@ -158,4 +158,4 @@ class The_Bootstrap_Gallery_Widget extends WP_Widget {
 
 
 /* End of file the-bootstrap-gallery-widget.php */
-/* Location: ./wp-content/themes/the-bootstrap/the-bootstrap-gallery-widget.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/the-bootstrap-gallery-widget.php */

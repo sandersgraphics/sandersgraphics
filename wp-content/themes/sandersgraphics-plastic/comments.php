@@ -20,4 +20,4 @@ tha_comments_after();
 
 
 /* End of file comments.php */
-/* Location: ./wp-content/themes/the-bootstrap/comments.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/comments.php */

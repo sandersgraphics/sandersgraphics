@@ -113,4 +113,4 @@ add_action( 'customize_preview_init', 'the_bootstrap_customize_enqueue_scripts' 
 
 
 /* End of file theme-customizer.php */
-/* Location: ./wp-content/themes/the-bootstrap/inc/theme-customizer.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/inc/theme-customizer.php */

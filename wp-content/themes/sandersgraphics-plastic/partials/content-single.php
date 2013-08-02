@@ -59,4 +59,4 @@ if ( get_the_author_meta( 'description' ) AND is_multi_author() ) : // If a user
 
 
 /* End of file content-single.php */
-/* Location: ./wp-content/themes/the-bootstrap/partials/content-single.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/partials/content-single.php */

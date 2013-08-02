@@ -430,4 +430,4 @@ function _the_bootstrap_fetch_feed( $feed_url ) {
 
 
 /* End of file theme-options.php */
-/* Location: ./wp-content/themes/the-bootstrap/inc/theme-options.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/inc/theme-options.php */

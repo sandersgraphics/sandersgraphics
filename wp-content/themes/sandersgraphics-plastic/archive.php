@@ -59,4 +59,4 @@ get_footer();
 
 
 /* End of file archive.php */
-/* Location: ./wp-content/themes/the-bootstrap/archive.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/archive.php */

@@ -39,7 +39,7 @@ if ( empty($withcomments) && !is_single() ) {
 </head>
 <body <?php body_class(); ?>>
 <div id="page">
-
+<h1>OMG</h1>
 <div id="header" role="banner">
 	<div id="headerimg">
 		<h1><a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a></h1>

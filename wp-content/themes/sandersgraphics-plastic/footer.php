@@ -40,4 +40,4 @@
 
 
 /* End of file footer.php */
-/* Location: ./wp-content/themes/the-bootstrap/footer.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/footer.php */

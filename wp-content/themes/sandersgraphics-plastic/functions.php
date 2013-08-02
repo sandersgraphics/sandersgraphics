@@ -1078,4 +1078,4 @@ function _the_bootstrap_version() {
 
 
 /* End of file functions.php */
-/* Location: ./wp-content/themes/the-bootstrap/functions.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/functions.php */

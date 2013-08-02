@@ -158,4 +158,4 @@ class The_Bootstrap_Image_Meta_Widget extends WP_Widget {
 
 
 /* End of file the-bootstrap-image-meta-widget.php */
-/* Location: ./wp-content/themes/the-bootstrap/the-bootstrap-image-meta-widget.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/the-bootstrap-image-meta-widget.php */

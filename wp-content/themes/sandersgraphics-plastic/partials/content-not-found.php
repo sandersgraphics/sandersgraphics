@@ -32,4 +32,4 @@ tha_entry_before(); ?>
 
 
 /* End of file content-not-found.php */
-/* Location: ./wp-content/themes/the-bootstrap/partials/content-not-found.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/partials/content-not-found.php */

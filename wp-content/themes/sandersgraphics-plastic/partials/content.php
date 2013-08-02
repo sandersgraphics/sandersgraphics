@@ -62,4 +62,4 @@ tha_entry_before(); ?>
 
 
 /* End of file content.php */
-/* Location: ./wp-content/themes/the-bootstrap/partials/content.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/partials/content.php */

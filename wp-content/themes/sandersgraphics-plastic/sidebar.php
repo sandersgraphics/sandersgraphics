@@ -34,4 +34,4 @@ tha_sidebars_before(); ?>
 
 
 /* End of file sidebar.php */
-/* Location: ./wp-content/themes/the-bootstrap/sidebar.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/sidebar.php */

@@ -173,4 +173,4 @@ endif; // get_custom_header
 
 
 /* End of file custom-header.php */
-/* Location: ./wp-content/themes/the-bootstrap/inc/custom-header.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/inc/custom-header.php */

@@ -288,4 +288,4 @@ endif;
 
 
 /* End of file template-tags.php */
-/* Location: ./wp-content/themes/the-bootstrap/inc/template-tags.php */
+/* Location: ./wp-content/themes/sandersgraphics-plastic/inc/template-tags.php */
