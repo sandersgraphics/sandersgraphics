@@ -25,14 +25,14 @@ class wp_native_dashboard_langswitcher {
 			$langs = wp_native_dashboard_collect_installed_languages();
 			$loc = get_locale();
 			
-			$wp_admin_bar->add_menu( array( 'id' => 'wpnd-lang-cur', 'title' => '<span class="csp-'.$loc.'">'.wp_native_dashboard_get_name_of($loc).'</span>', 'href' => '#', 'meta' => array ( 'class' => 'csp-langoption' ) ) );
-			if (count($langs) > 1) {
-				foreach($langs as $lang) {
-					if ($lang != $loc) {
-						$wp_admin_bar->add_menu( array( 'parent' => 'wpnd-lang-cur', 'id' => 'wpnd-lang-'.$lang, 'title' => '<span class="csp-'.$lang.'" hreflang="'.$lang.'">'.wp_native_dashboard_get_name_of($lang).'</span>', 'href' => '#', 'meta' => array ( 'class' => 'csp-langoption csp-langoption-adminbar' ) ) );
-					}
-				}
-			}
+//			$wp_admin_bar->add_menu( array( 'id' => 'wpnd-lang-cur', 'title' => '<span class="csp-'.$loc.'">'.wp_native_dashboard_get_name_of($loc).'</span>', 'href' => '#', 'meta' => array ( 'class' => 'csp-langoption' ) ) );
+//			if (count($langs) > 1) {
+//				foreach($langs as $lang) {
+//					if ($lang != $loc) {
+//						$wp_admin_bar->add_menu( array( 'parent' => 'wpnd-lang-cur', 'id' => 'wpnd-lang-'.$lang, 'title' => '<span class="csp-'.$lang.'" hreflang="'.$lang.'">'.wp_native_dashboard_get_name_of($lang).'</span>', 'href' => '#', 'meta' => array ( 'class' => 'csp-langoption csp-langoption-adminbar' ) ) );
+//					}
+//				}
+//			}
 		}
 		if (function_exists("admin_url")) {
 			$this->admin_url = rtrim(admin_url(), '/');

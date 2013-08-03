@@ -1,0 +1,62 @@
+/*
+Theme Name:     SG Plastic
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       boilerplate
+Version:        0.1.0
+*/
+@import url("../boilerplate-old/style.css");
+/*id SG_Container_1*/
+#SG_Container_1{
+    background:#FFffff ;
+    max-width: 1186px;
+    min-width: 205px;
+    padding: 15px 15px 5px 15px;
+
+    border-radius:1.9em;
+    box-shadow: 0px 10px 22px #888;
+    margin: 0 auto;
+}
+#SG_inner_Container_1{
+    background:#323232 ;
+    padding: 3px;
+    border-radius:0.8em;
+}
+#SG_header_Container_1{
+    background:#fff;
+    padding: 10px;
+    border-radius:0.6em;
+    margin-bottom: -13px;
+}
+#SG_nav_Container_1{
+
+}
+#SG_widecontent_Container_1{
+    background: #fff;
+    padding: 10px;
+    border-radius:0.6em;
+}
+#sg_footer{
+    height: 80px;
+    margin-bottom: 20px;
+}
+#sg_footspace{
+    margin-top: 40px;
+}
+#sg_logo{
+    text-indent: -2000px;
+    background-image: url(images/sanders-graphics.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 54px;
+    width: auto;
+}
+#sg_logo:hover{
+    text-indent: -2000px;
+    background-image: url(images/sanders-graphics.png);
+    background-position: 0 -50px;
+    height: 54px;
+    width: 445px;
+}
