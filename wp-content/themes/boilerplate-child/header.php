@@ -42,43 +42,33 @@
 		wp_head();
 ?>
 	</head>
-	<body <?php body_class(); ?>>
-<!--   start SG_Container_1-->
+<body <?php body_class(); ?>>
     <div id="SG_Container_1"  class="container">
         <div id="SG_inner_Container_1">
             <div id="SG_header_Container_1">
-                <header role="banner">
-                    <h1 id="sg_logo"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                    <p><?php bloginfo( 'description' ); ?></p>
+                <header role="banner" class="row">
+                    <div id="sanders-graphics-logo"  class="col-lg-6 col-sm-6 col-12" >
+                        <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                            <img src="<?php echo get_template_directory_uri(); ?>-child/images/sanders-graphics-logo-b.png"  alt="sanders-graphics" />
+                        </a>
+                    </div>
+
+                    <div id="sanders-graphics-contact" class="col-lg-3 col-sm-3 col-12" >
+                        <a>email:david@sandersgraphics.co.uk</a><br />
+                        <a>phone:07583638956</a>
+                    </div>
+                    <div id="sanders-graphics-roles" class="col-lg-2 col-sm-3 col-12" >
+                        <img src="<?php echo get_template_directory_uri(); ?>-child/images/sg_pencils.png"  alt="Sanders Graphics Roles" />
+                    </div>
+
+<!--                    <h1 id="sg_logo"><a href="--><?php //echo home_url( '/' ); ?><!--" title="--><?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?><!--" rel="home">--><?php //bloginfo( 'name' ); ?><!--</a></h1>-->
+<!--                    <p>--><?php //bloginfo( 'description' ); ?><!--</p>-->
                 </header>
 
 
-<?php
-	// Check to see if the header image has been removed
-	$header_image = get_header_image();
-	if ( ! empty( $header_image ) ) {
-?>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-
-<?php
-		// The header image
-		// Check if this is a post or page, if it has a thumbnail, and if it's a big one
-		if ( is_singular() &&
-			has_post_thumbnail( $post->ID ) &&
-			( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), array( HEADER_IMAGE_WIDTH, HEADER_IMAGE_WIDTH ) ) ) &&
-			$image[1] >= HEADER_IMAGE_WIDTH ) {
-				echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
-		} else { ?>
-			<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
-<?php	}; // end check for featured image or standard header
-?>		</a>
-<?php }; // end check for removed header image ?>
-                <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
-                <a id="skip" href="#content" title="<?php esc_attr_e( 'Skip to content', 'boilerplate' ); ?>"><?php _e( 'Skip to content', 'boilerplate' ); ?></a>
         </div><!-- end SG_header_Container_1  -->
-        <div id="SG_nav_Container_1">
-            <nav id="access" role="navigation">
-                <?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
-                <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary', 'depth' => 1 ) ); ?>
-            </nav><!-- #access -->
-		    <section id="content" role="main">
+                    <nav id="access" role="navigation" class="SG_nav_Container_1">
+                        <?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
+                        <?php wp_nav_menu( array( 'container_class' => 'menu-header','menu_class' => 'row', 'theme_location' => 'primary', 'depth' => 1, 'link_before'  => '<div class="sg_btn_h">','link_after' => '</div><div class="knob"></div>' ) ); ?>
+                    </nav><!-- nav .SG_nav_Container_1 end -->
+		        <section id="content" role="main">

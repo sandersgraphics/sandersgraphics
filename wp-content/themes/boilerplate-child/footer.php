@@ -11,17 +11,31 @@
                          */
                         ?>
                     </section><!-- #main -->
-                </div><!--end SG_widecontent_Container_1 -->
-            </div><!--end SG_inner_Container_1-->
-		    <footer id="sg_footer" role="contentinfo" class="container">
+                </div><!--div #SG_widecontent_Container_1 end -->
+
+		    <footer id="sg_footer" role="contentinfo" class="row container">
                 <?php
                     /* A sidebar in the footer? Yep. You can can customize
                      * your footer with four columns of widgets.
                      */
                     get_sidebar( 'footer' );
                 ?>
-			    <a id="footer-name" href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			    <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a>
+
+
+
+
+
+                    <div id="foot-block2" class="col-11">
+                        <a id="footer-name" href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> 2013</a>
+                        | <a>SiteMap</a>
+                        | <a>Archive</a>
+                    </div>
+                        <div id="foot-block5" class="col-1"><img src="<?php echo get_template_directory_uri(); ?>-child/images/sg-mic.png"  alt="Sanders Graphics Mic" /></div>
+
+
+<!--                <div id="foot-block4" class="col-lg-2 col-sm-4 col-12">green</div>-->
+<!--                <div id="foot-block5" class="col-lg-2 col-sm-4 col-12">orange</div>-->
+
 		    </footer><!-- footer -->
 
             <?php
@@ -31,7 +45,7 @@
                  */
                 wp_footer();
             ?>
-        </div><!--END-ID SG_Container_1-->
-        <div id="sg_footspace"> </div>
+                        </div><!-- div #SG_Container_1 end -->
+        <div id="sg_footspace"> </div><!-- div #sg_footspace end -->
 	</body>
 </html>
