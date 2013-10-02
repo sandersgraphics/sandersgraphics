@@ -243,6 +243,7 @@ $tidyBoxHeight: 39px;
           padding: 0 20px 10px 20px;
           #bottom-box1{
             //background-color: green;
+            min-height: 240px;
             h2{
               font-size: 1.8em;
               font-weight: 600;
@@ -268,6 +269,7 @@ $tidyBoxHeight: 39px;
 
           #bottom-box2{
             //background-color: #ffff00;
+            min-height: 240px;
             h2{
               font-size: 1.8em;
               font-weight: 600;
@@ -291,6 +293,7 @@ $tidyBoxHeight: 39px;
             }
           }
           #bottom-box3{
+            min-height: 240px;
             h2{
               font-size: 1.8em;
               font-weight: 600;
@@ -316,6 +319,7 @@ $tidyBoxHeight: 39px;
             }
           }
           #bottom-box4{
+            min-height: 240px;
             h2{
               font-size: 1.8em;
               font-weight: 600;
@@ -658,8 +662,37 @@ $tidyBoxHeight: 39px;
   }
   #tidybox{
     margin-bottom: 13px;
+    h3{
+      font-size: 1.3em;
+    }
+    h2{
+      font-size: 0.67em;
+    }
+    ul{
+      li{
+        font-size: 0.51em;
+      }
+
+    }
 
   }
+  SG_widecontent_Container_1{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    #bottom-box1{
+      min-height: 214px;
+    }
+    #bottom-box2{
+      min-height: 214px;
+    }
+    #bottom-box3{
+      min-height: 210px;
+    }
+    #bottom-box4{
+      min-height: 210px;
+    }
+  }
+
   #SG_Container_1{
     #SG_inner_Container_1{
       .SG_nav_Container_1{
@@ -668,9 +701,9 @@ $tidyBoxHeight: 39px;
     }
   }
 
-#menu-sg-side-nav-graphics{
-  margin-bottom: -1px;
-}
+  #menu-sg-side-nav-graphics{
+    margin-bottom: -1px;
+  }
 
 }
 #sg_side_fill{

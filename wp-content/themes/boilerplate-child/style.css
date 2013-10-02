@@ -153,68 +153,76 @@ Version:        0.1.0
         min-height: 150px; }
         #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div {
           padding: 0 20px 10px 20px; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 h2 {
-            font-size: 1.8em;
-            font-weight: 600;
-            color: #231f20; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 p {
-            color: #474ea1;
-            font-size: 0.8em; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 ul li {
-            margin-left: -15px;
-            list-style-image: url(images/list-graphic-2.png);
-            font-weight: 600;
-            color: #474ea1; }
-            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 ul li .note {
+          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 {
+            min-height: 240px; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 h2 {
+              font-size: 1.8em;
+              font-weight: 600;
+              color: #231f20; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 p {
+              color: #474ea1;
+              font-size: 0.8em; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 ul li {
+              margin-left: -15px;
+              list-style-image: url(images/list-graphic-2.png);
+              font-weight: 600;
+              color: #474ea1; }
+              #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 ul li .note {
+                font-size: 0.8em;
+                color: #e5402c; }
+          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 {
+            min-height: 240px; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 h2 {
+              font-size: 1.8em;
+              font-weight: 600;
+              color: #231f20; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 ul li {
+              margin-left: -15px;
+              list-style-image: url(images/list-graphic-2.png);
+              font-weight: 600;
+              color: #474ea1; }
+              #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 ul li .note {
+                font-size: 0.8em;
+                color: #e5402c; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 p {
+              color: #474ea1;
+              font-size: 0.8em; }
+          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 {
+            min-height: 240px; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 h2 {
+              font-size: 1.8em;
+              font-weight: 600;
+              color: #231f20; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 p {
+              position: relative;
+              top: 25px;
+              color: #474ea1;
+              font-size: 0.8em; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 ul li {
+              margin-left: -15px;
+              list-style-image: url(images/list-graphic-2.png);
+              font-weight: 600;
+              color: #474ea1; }
+              #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 ul li .note {
+                font-size: 0.8em;
+                color: #e5402c; }
+          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 {
+            min-height: 240px; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 h2 {
+              font-size: 1.8em;
+              font-weight: 600;
+              color: #231f20; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 p {
               font-size: 0.8em;
-              color: #e5402c; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 h2 {
-            font-size: 1.8em;
-            font-weight: 600;
-            color: #231f20; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 ul li {
-            margin-left: -15px;
-            list-style-image: url(images/list-graphic-2.png);
-            font-weight: 600;
-            color: #474ea1; }
-            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 ul li .note {
-              font-size: 0.8em;
-              color: #e5402c; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box2 p {
-            color: #474ea1;
-            font-size: 0.8em; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 h2 {
-            font-size: 1.8em;
-            font-weight: 600;
-            color: #231f20; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 p {
-            position: relative;
-            top: 25px;
-            color: #474ea1;
-            font-size: 0.8em; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 ul li {
-            margin-left: -15px;
-            list-style-image: url(images/list-graphic-2.png);
-            font-weight: 600;
-            color: #474ea1; }
-            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box3 ul li .note {
-              font-size: 0.8em;
-              color: #e5402c; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 h2 {
-            font-size: 1.8em;
-            font-weight: 600;
-            color: #231f20; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 p {
-            font-size: 0.8em;
-            color: #474ea1; }
-          #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 ul li {
-            margin-left: -15px;
-            list-style-image: url(images/list-graphic-2.png);
-            font-weight: 600;
-            color: #474ea1; }
-            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 ul li .note {
-              font-size: 0.8em;
-              color: #e5402c; }
+              color: #474ea1; }
+            #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 ul li {
+              margin-left: -15px;
+              list-style-image: url(images/list-graphic-2.png);
+              font-weight: 600;
+              color: #474ea1; }
+              #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box4 ul li .note {
+                font-size: 0.8em;
+                color: #e5402c; }
 
 /*  wheel Animation  ------------------------------------------------- */
 #wheel_1 {
@@ -514,6 +522,24 @@ Version:        0.1.0
 
   #tidybox {
     margin-bottom: 13px; }
+    #tidybox h3 {
+      font-size: 1.3em; }
+    #tidybox h2 {
+      font-size: 0.67em; }
+    #tidybox ul li {
+      font-size: 0.51em; }
+
+  SG_widecontent_Container_1 {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important; }
+    SG_widecontent_Container_1 #bottom-box1 {
+      min-height: 214px; }
+    SG_widecontent_Container_1 #bottom-box2 {
+      min-height: 214px; }
+    SG_widecontent_Container_1 #bottom-box3 {
+      min-height: 210px; }
+    SG_widecontent_Container_1 #bottom-box4 {
+      min-height: 210px; }
 
   #menu-sg-side-nav-graphics {
     margin-bottom: -1px; } }
