@@ -17,7 +17,7 @@ get_header(); ?>
 <div id="side_nav_row" class="row">
     <div class="menu-subheader col-lg-3 col-sm-3 col-12" id="sg_sub_nav_container">
         <div id="tidybox" class="tidy-box-7 home-tidy-box">
-            <?php include_once '/templates/side_full_1.php'; ?>
+            <?php include_once 'templates/side_full_1.php'; ?>
         </div>
     </div>
     <div id="sg-side-box" class=" col-lg-9 col-sm-9 col-12">
@@ -35,7 +35,7 @@ get_header(); ?>
 
                 </h1>
             </header>
-            <?php include_once '/templates/rotating_v1.php'; ?>
+            <?php include_once 'templates/rotating_v1.php'; ?>
             <section class="team-section thumb-list">
                 <?php
                 $args = array( 'post_type' => 'post', 'posts_per_page' => 0 );
