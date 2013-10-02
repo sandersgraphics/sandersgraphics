@@ -218,25 +218,25 @@ Version:        0.1.0
 
 /*  wheel Animation  ------------------------------------------------- */
 #wheel_1 {
-  background-image: url(images/WHEEL-1.PNG);
+  background-image: url(images/WHEEL-1.png);
   left: 208px;
   position: relative;
   top: -57px; }
 
 #wheel_2 {
-  background-image: url(images/WHEEL-2.PNG); }
+  background-image: url(images/WHEEL-2.png); }
 
 #wheel_3 {
-  background-image: url(images/WHEEL-3.PNG); }
+  background-image: url(images/WHEEL-3.png); }
 
 #wheel_4 {
-  background-image: url(images/WHEEL-4.PNG); }
+  background-image: url(images/WHEEL-4.png); }
 
 #wheel_5 {
-  background-image: url(images/WHEEL-5.PNG); }
+  background-image: url(images/WHEEL-5.png); }
 
 #wheel_6 {
-  background-image: url(images/WHEEL-6.PNG); }
+  background-image: url(images/WHEEL-6.png); }
 
 @keyframes rotating {
   from {
