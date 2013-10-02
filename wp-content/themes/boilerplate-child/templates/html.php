@@ -8,7 +8,9 @@
 <div id="side_nav_row" class="row">
     <div class="menu-subheader col-lg-3 col-sm-3 col-12" id="sg_sub_nav_container">
         <?php wp_nav_menu( array('theme_location' => 'side-menu-3', 'link_before'  => '<div class="sg_btn_h">','link_after' => '</div><div class="knob"></div>'  ) ); ?>
-        <div id="tidybox" class="tidy-box-5 col-lg-12 col-sm-12 col-12">tidy up box</div>
+        <div id="tidybox" class="tidy-box-5 col-lg-12 col-sm-12 col-12">
+            <?php include_once 'side_full_1.php'; ?>
+        </div>
     </div>
     <div class="col-lg-9 col-sm-9 col-12">
         <div id="animated-cover">

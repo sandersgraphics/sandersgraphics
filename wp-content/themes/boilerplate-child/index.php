@@ -17,25 +17,7 @@ get_header(); ?>
 <div id="side_nav_row" class="row">
     <div class="menu-subheader col-lg-3 col-sm-3 col-12" id="sg_sub_nav_container">
         <div id="tidybox" class="tidy-box-7 home-tidy-box">
-            <h3>Flexible hourly rates</h3>
-            <ul>
-                <li>Hourly rates for ongoing larger jobs</li>
-                <li>Fixed price's for small jobs</li>
-                <li>Better rates for easy jobs</li>
-            </ul>
-            <h2>Located in East Sussex in reach of:</h2>
-            <div id="locations" class="row">
-                <ul class="floatleft col-lg-6 col-md-12 col-6">
-                    <li>Lewes</li>
-                    <li>Newhaven</li>
-                    <li>Seaford</li>
-                </ul>
-                <ul class=" col-lg-6 col-md-12 col-6">
-                    <li>Burgess hill</li>
-                    <li>Brighton</li>
-                    <li>Eastbourne</li>
-                </ul>
-            </div>
+            <?php include_once '/templates/side_full_1.php'; ?>
         </div>
     </div>
     <div id="sg-side-box" class=" col-lg-9 col-sm-9 col-12">
@@ -53,22 +35,9 @@ get_header(); ?>
 
                 </h1>
             </header>
-            <p></p>
-            <div id="wheel_1" class='rotating'>
-                <div id="wheel_2" class='rotating'>
-                    <div id="wheel_3" class='rotating'>
-                        <div id="wheel_4" class='rotating'>
-                            <div id="wheel_5" class='rotating'>
-                                <div id="wheel_6" class='rotating'>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include_once '/templates/rotating_v1.php'; ?>
             <section class="team-section thumb-list">
                 <?php
-
                 $args = array( 'post_type' => 'post', 'posts_per_page' => 0 );
                 $loop = new WP_Query( $args );
                 while ( $loop->have_posts() ) : $loop->the_post();

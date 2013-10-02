@@ -39,7 +39,34 @@ Version:        0.1.0
   background-color: #231f20; }
 
 .sg_plasticWhite {
-  background-color: #e2dac0; }
+  background-color: #112222; }
+
+.fc_white {
+  color: white; }
+
+.fc_black {
+  color: #231f20; }
+
+.fc_green {
+  color: lime; }
+
+.fc_yellow {
+  color: #ffff00; }
+
+.fc_orange {
+  color: #eb8128; }
+
+.fc_red {
+  color: #e5402c; }
+
+.fc_cyan {
+  color: orange; }
+
+.fc_purple {
+  color: #474ea1; }
+
+.small_text {
+  font-size: 0.7em; }
 
 /*  SG header ------------------------------------------------- */
 #SG_header_Container_1 header #sanders-graphics-logo a img {
@@ -65,7 +92,7 @@ Version:        0.1.0
 
 /*  SG containers ------------------------------------------------- */
 #SG_Container_1 {
-  background: #e2dac0;
+  background: #112222;
   padding: 15px 15px 15px 15px;
   border-radius: 1.9em;
   box-shadow: 0px 10px 22px #323232;
@@ -92,7 +119,7 @@ Version:        0.1.0
           border-radius: 0.6em 0.6em 0.6em 0.6em;
           height: 279px;
           overflow: hidden;
-          background-image: url(images/spiral.png);
+          background-image: url(images/stripe_001.png);
           background-position: 300px 300px;
           color: #474ea1; }
           #SG_Container_1 #SG_inner_Container_1 #content #side_nav_row #sg-side-box .sg-side-block header {
@@ -122,7 +149,8 @@ Version:        0.1.0
       #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 {
         background: white;
         border-radius: 0.6em;
-        font-family: "Helvetica"; }
+        font-family: "Helvetica";
+        min-height: 150px; }
         #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div {
           padding: 0 20px 10px 20px; }
           #SG_Container_1 #SG_inner_Container_1 #content #SG_widecontent_Container_1 div #bottom-box1 h2 {
@@ -252,7 +280,7 @@ Version:        0.1.0
       .menu-header ul li .knob {
         background-position: -48px 0; }
       .menu-header ul li a {
-        background: none repeat scroll 0 0 #e2dac0;
+        background: none repeat scroll 0 0 #112222;
         border-radius: 7px 7px 7px 7px;
         display: block;
         padding: 6px 6px 10px;
@@ -269,7 +297,7 @@ Version:        0.1.0
           width: 45px; }
         .menu-header ul li a .sg_btn_h {
           padding: 3px 0 0 5px;
-          box-shadow: 0 3px 10px #231f20; }
+          box-shadow: 0 3px 10px #112222; }
       .menu-header ul li :hover a {
         text-decoration: none; }
         .menu-header ul li :hover a .sg_btn_h {
@@ -278,7 +306,7 @@ Version:        0.1.0
           height: 29px;
           padding: 3px 0 0 5px;
           box-shadow: 0 1px 4px #323232;
-          color: #231f20; }
+          color: #112222; }
       .menu-header ul li + li .knob {
         background-position: 0 0; }
       .menu-header ul li + li + li .knob {
@@ -304,7 +332,7 @@ Version:        0.1.0
   background-color: white;
   border-radius: 25px;
   height: 29px;
-  color: #231f20; }
+  color: #112222; }
 
 /*  SG .menu-subheader   navigation ------------------------------------------------- */
 .menu-subheader ul {
@@ -329,7 +357,7 @@ Version:        0.1.0
       background-position: -279px -1px; }
     .menu-subheader ul li a {
       height: 40px;
-      background-color: #e2dac0;
+      background-color: #112222;
       boader: 7px;
       border-color: #231f20;
       border-width: 0.06em;
@@ -417,6 +445,24 @@ Version:        0.1.0
   padding-left: 1px;
   overflow: hidden;
   border-radius: 0.6em; }
+  #sg-side-box #contact {
+    font-family: helvetica;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    top: -250px; }
+    #sg-side-box #contact #email_btn_1 {
+      color: white; }
+    #sg-side-box #contact #email_btn_1:hover {
+      color: #ccc;
+      text-decoration: none; }
+    #sg-side-box #contact #email_btn_2 {
+      color: #ffff00; }
+    #sg-side-box #contact #email_btn_2:hover {
+      color: #bbbb00;
+      text-decoration: none; }
 
 #sg_sub_nav_container {
   padding-right: 0;

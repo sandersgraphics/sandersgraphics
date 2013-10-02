@@ -8,8 +8,8 @@ Template:       boilerplate
 Version:        0.1.0
 */
 /*@import url("../boilerplate-old/style.css");*/
-$darkCharcoalColor : #231f20;
-//$darkCharcoalColor : #63c4eb;
+//$darkCharcoalColor : #231f20;
+$darkCharcoalColor : #122;
 $lightCharcoalColor : #323232;
 //$lightCharcoalColor : #63c4eb;
 $blueColor : #63c4eb;
@@ -21,8 +21,8 @@ $whiteColor : #fff;
 $purpleColor : #474ea1;
 $blackColor : #231f20;
 //$blackColor : #63c4eb;
-$plasticWhiteColor : #e2dac0;
-//$plasticWhiteColor : #333;
+//$plasticWhiteColor : #e2dac0;
+$plasticWhiteColor : #122;
 $radius : 0.6em;
 $midSectionHeight: 279px;
 $centerheight: 8px;
@@ -83,7 +83,15 @@ $tidyBoxHeight: 39px;
 .sg_plasticWhite{
   background-color: $plasticWhiteColor;
 }
-
+.fc_white{color:$whiteColor}
+.fc_black{color:$blackColor}
+.fc_green{color:lime}
+.fc_yellow{color:#ffff00}
+.fc_orange{color:$orangeColor}
+.fc_red{color:$redColor}
+.fc_cyan{color:orange}
+.fc_purple{color:$purpleColor}
+.small_text{font-size: 0.7em}
 /*  SG header ------------------------------------------------- */
 
 #SG_header_Container_1{
@@ -178,7 +186,7 @@ $tidyBoxHeight: 39px;
             height:$midSectionHeight;
             //padding: 25px;
             overflow: hidden;
-            background-image: url(images/spiral.png);
+            background-image: url(images/stripe_001.png);
             background-position: 300px 300px;
 
             color:$purpleColor;
@@ -229,6 +237,7 @@ $tidyBoxHeight: 39px;
         background:$whiteColor;
         border-radius:0.6em;
         font-family: "Helvetica";
+        min-height: 150px;
 
         div{
           padding: 0 20px 10px 20px;
@@ -569,6 +578,30 @@ $tidyBoxHeight: 39px;
   overflow: hidden;
   //width:882px;
   border-radius: 0.6em;
+  #contact{
+    font-family: helvetica;
+    font-size: 1.5em;
+    color: $whiteColor;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    top: -250px;
+    #email_btn_1{
+      color:$whiteColor;
+    }
+    #email_btn_1:hover{
+      color:#ccc;
+      text-decoration: none;
+    }
+    #email_btn_2 {
+      color:#ffff00;
+    }
+    #email_btn_2:hover {
+      color:#bbbb00;
+      text-decoration: none;
+    }
+
+  }
 }
 
 #sg_sub_nav_container{
